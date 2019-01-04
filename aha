@@ -1,1 +1,7 @@
 wyglada na to iz libre office calc odmawia troche wspolpracy
+W wierszu 1111 jest 10:09:24 mozna to uzyskać za pomocą =time(G1111&H1111,I1111&J1111,K1111,L1111) => analogicznie z 2222, 3333 i 4444
+Palindromów jest 7 i uzyskuje się to za pomocą =if(and(and(G1=L1,H1=K1),I1=J1),1,0)i zaznaczając całą kolumnę, jedynki to palindromy i są to:
+23:44:32 ; 13:33:31 ; 12:22:21 ; 12:00:21 ; 10:33:01 ; 4:22:40 ; 3:44:30
+W podpunkcie trzecim jest to countif i bierzemy bezwzględnie komórki od 12.00 do 12.15 i zaznaczamy całą kolumnę,
+trójki będą wskazywały na trzykrotne powtórzenie.
+
